@@ -2,67 +2,35 @@
   "news": [
     {
       "featured": true,
-      "badge": "🔥 Важное",
-      "title": "Обновление до Minecraft 1.21.11 уже доступно!",
-      "meta": "2 часа назад • ewolter",
-      "text": "Мы полностью перешли на новую версию Minecraft. Все модули переписаны, оптимизация улучшена на 30%. Рекомендуем обновиться всем пользователям для лучшей производительности и обхода античитов."
+      "badge": "🚀 Релиз",
+      "title": "Обновление 1.21.11 Fabric — v1.5",
+      "meta": "Только что • ewolter",
+      "text": "Полная переработка худа: теперь это не просто худ, а шкит намбер ван чит. Исправлена нейро-ротация — датасеты воспроизводятся моментально и чётко. Множество багов исправлено."
     },
     {
       "featured": false,
-      "title": "Конкурс на лучший пресет конфига",
-      "meta": "Вчера • moderator",
-      "text": "Делитесь своими конфигами в нашем Discord-сообществе! Авторы трёх лучших пресетов получат пожизненную лицензию TrollHack Premium. Конкурс продлится до конца месяца."
+      "title": "Не работает чат?",
+      "meta": "Важно • ewolter",
+      "text": "Включите модуль «Чат» и поставьте там любой префикс."
     },
     {
       "featured": false,
-      "title": "Исправление ошибок после обновления",
-      "meta": "3 дня назад • developer",
-      "text": "Пофикшен краш при использовании XRay на серверах с модами, исправлена работа KillAura на Paper 1.21. Спасибо за ваши репорты!"
+      "title": "Клиент не запускается?",
+      "meta": "Важно • ewolter",
+      "text": "Удалите из папки майна папки «mzc» и «Sakura config», затем закиньте в mods баритон 1.21.11 Fabric."
     }
   ],
   "changelog": [
     {
-      "version": "v2.4.1",
+      "version": "v1.5",
       "date": "15.05.2026",
       "status": "actual",
       "changes": [
-        { "type": "fix", "description": "Краш при использовании AutoTotem на Paper-серверах" },
-        { "type": "improve", "description": "Скорость работы Scaffold на высоких пингах" },
-        { "type": "new", "description": "Режим обхода AntiCheat — Intave v14" },
-        { "type": "fix", "description": "Некорректное отображение шрифтов в ClickGUI" }
-      ]
-    },
-    {
-      "version": "v2.4.0",
-      "date": "01.05.2026",
-      "status": "old",
-      "changes": [
-        { "type": "new", "description": "Модуль AutoMLG (лагучий, но рабочий)" },
-        { "type": "new", "description": "Поддержка Minecraft 1.21.11" },
-        { "type": "improve", "description": "Интерфейс полностью переписан на CSS-grid" },
-        { "type": "remove", "description": "Временная заглушка AntiBot (переделываем)" },
-        { "type": "fix", "description": "Утечка памяти при долгой игре с включённым ESP" }
-      ]
-    },
-    {
-      "version": "v2.3.2",
-      "date": "12.04.2026",
-      "status": "old",
-      "changes": [
-        { "type": "fix", "description": "Детект на Vulcan при использовании Timer" },
-        { "type": "new", "description": "Кастомные пресеты для каждого сервера" },
-        { "type": "improve", "description": "Flight обходит теперь и NCP" }
-      ]
-    },
-    {
-      "version": "v2.3.1",
-      "date": "28.03.2026",
-      "status": "old",
-      "changes": [
-        { "type": "fix", "description": "Velocity не работал на серверах с бумагой" },
-        { "type": "new", "description": "XRay с фильтром по рудам" },
-        { "type": "improve", "description": "Быстродействие KillAura на 20%" }
+        { "type": "new", "description": "Полная переработка худа — теперь шкит намбер ван чит" },
+        { "type": "fix", "description": "Нейро-ротация: датасеты воспроизводятся моментально и чётко" },
+        { "type": "fix", "description": "Исправлено множество багов" }
       ]
     }
   ]
 }
+EOF
